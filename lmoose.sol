@@ -1,10 +1,10 @@
 
 /**
- *Submitted for verification at BscScan.com on 2021-06-09
 
 Inspired by other recent Little coins, I present to you LittleMoose
 Anti dump / whale function, there is a fixed max buy/sell.
 I hate rugs so not happening.
+
  */
 
 pragma solidity ^0.8.0;
