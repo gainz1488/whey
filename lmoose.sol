@@ -548,7 +548,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract LittleUglyDuck is Context, IERC20, Ownable, ReentrancyGuard {
+contract LittleMoose is Context, IERC20, Ownable, ReentrancyGuard {
     using SafeMath for uint256;
     using Address for address;
 
@@ -567,8 +567,8 @@ contract LittleUglyDuck is Context, IERC20, Ownable, ReentrancyGuard {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tHODLrRewardsTotal;
 
-    string private _name = "LittleUglyDuck";
-    string private _symbol = "LUD";
+    string private _name = "LittleMoose";
+    string private _symbol = "LMOOSE";
     uint8 private _decimals = 9;
 
     uint256 public _rewardFee = 6;
