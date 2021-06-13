@@ -1,11 +1,19 @@
 
 /**
 
-Brought to you by the actual LittleMoose dev. All others are fakes.
 
-This time I'm bringing you Happy Armadillo.
+Brought to you by the real LittleMoose dev. All others are fakes.
 
-Same mechanics apply.
+This time I'm bringing you Friendly Armadillo.
+
+Same mechanics apply. 
+
+Try not to kill the momentum for a few dollars. I'm looking at you, Asia.
+
+I won't rug and I will burn the LP.
+
+Fuck ruggers with a power drill.
+
 
 
  */
@@ -551,7 +559,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract HappyArmadillo is Context, IERC20, Ownable, ReentrancyGuard {
+contract FriendlyArmadillo is Context, IERC20, Ownable, ReentrancyGuard {
     using SafeMath for uint256;
     using Address for address;
 
@@ -570,8 +578,8 @@ contract HappyArmadillo is Context, IERC20, Ownable, ReentrancyGuard {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tHODLrRewardsTotal;
 
-    string private _name = "HappyArmadillo";
-    string private _symbol = "HARMA";
+    string private _name = "FriendlyArmadillo";
+    string private _symbol = "FARMA";
     uint8 private _decimals = 9;
 
     uint256 public _rewardFee = 6;
