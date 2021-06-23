@@ -9,7 +9,7 @@
 
 Burning LP to dead wallet a few minutes after launch.
 
-10% tax on every transaction, 4% goes to HODLERS and 1% is burned.
+5% tax on every transaction, 4% goes to HODLERS and 1% is burned.
 
 I hate rugs so not happening.
 
